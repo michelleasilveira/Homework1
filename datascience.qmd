@@ -1,5 +1,8 @@
 ---
 title: "Reflections on Data Science"
+subtitle: "Homework 1"
+author: "Michelle Silveira"
+date: 08/24/2025
 format: html
 ---
 
