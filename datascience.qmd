@@ -8,10 +8,10 @@ format: html
 
 # What is being a data scientist about?
 
-Being a data scientist is about **turning questions into evidence**.  
-It involves clarifying problems, preparing and analyzing data, creating and applying models,  
+Being a data scientist is about **applying scientific methods in data analysis** to   
+solve research, business and different problems, preparing and analyzing data, creating and applying models,  
 and communicating insights so that others can act on them.  
-It’s detective work, engineering, and storytelling combined.
+It’s like detective work, engineering, and storytelling combined.
 
 Some common activities include:
 - Wrangling and data cleaning and transformation
@@ -53,8 +53,7 @@ typeof(y)
 str(y)
 ```
 
-Finally, we plot the density.  
-The code will be hidden in the HTML:
+Finally, we plot the density:
 
 ```{r}
 #| echo: false
