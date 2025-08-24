@@ -34,7 +34,7 @@ and the practical, tool‑driven mindset of data science.
 
 We will now create a **kernel density estimate** of `iris$Petal.Width`.
 
-First, we create the object:
+First, we create the object: 
 
 ```{r}
 # Step 1: Create the object
