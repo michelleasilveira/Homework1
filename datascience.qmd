@@ -1,0 +1,65 @@
+---
+title: "Reflections on Data Science"
+format: html
+---
+
+# What is being a data scientist about?
+
+Being a data scientist is about **turning questions into evidence**.  
+It involves clarifying problems, preparing and analyzing data, creating and applying models,  
+and communicating insights so that others can act on them.  
+It’s detective work, engineering, and storytelling combined.
+
+Some common activities include:
+- Wrangling and data cleaning and transformation
+- Building and validating models
+- Sharing results in clear, reproducible reports
+- Thinking about ethics and the impact of analysis
+
+# Data scientists vs. statisticians
+
+**Similarities**
+- Both rely on data, probability, and models.
+- Both value reproducibility and critical thinking.
+
+**Differences**
+- Statisticians often emphasize *theory, inference, and study design* and usually focus on the event modeling and the relationship between the event/target and input (independent) variables, and the sampling process as well.  
+- Data scientists often emphasize *end‑to‑end workflows, coding, and deployment*, focusing on agile models that fit product needs and challenging production models with **challenger** approaches.  
+
+**My view**  
+I see myself as combining both: I like the theoretical rigor of statistics  
+and the practical, tool‑driven mindset of data science.
+
+# Exploring a density object in R
+
+We will now create a **kernel density estimate** of `iris$Petal.Width`.
+
+First, we create the object:
+
+```{r}
+# Step 1: Create the object
+y <- density(iris$Petal.Width)
+```
+
+Next, we look inside the object:
+
+```{r}
+# Step 2: Look inside the object
+class(y)
+typeof(y)
+str(y)
+```
+
+Finally, we plot the density.  
+The code will be hidden in the HTML:
+
+```{r}
+#| echo: false
+# Step 3: Make the plot
+plot(
+  y,
+  main = "Kernel Density of iris$Petal.Width",
+  xlab = "Petal Width (cm)",
+  ylab = "Estimated Density"
+)
+```
