@@ -19,7 +19,7 @@ Some common activities include:
 - Sharing results in clear, reproducible reports
 - Thinking about ethics and the impact of analysis
 
-# Data scientists vs. statisticians
+# Michelle Data scientists vs. statisticians
 
 **Similarities**
 - Both rely on data, probability, and models.
